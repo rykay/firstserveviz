@@ -155,7 +155,7 @@
         svg.selectAll("circle")
             .transition()
             .delay(function (d, i) {return (i * 3)})
-            .duration(3000)
+            .duration(4000)
             .attr("cx", function (d) {return x(d.first_in);})
             .attr("cy", function (d) {return y(d.match_win_rate);})
 
